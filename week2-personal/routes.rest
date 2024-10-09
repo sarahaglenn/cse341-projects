@@ -1,8 +1,8 @@
-###
+### 
 http://localhost:3000
-###
+### GET
 http://localhost:3000/contacts
-###
+### GET
 http://localhost:3000/contacts/66f1ba54fb95d9c3fb85233e
 ### POST contact
 POST http://localhost:3000/contacts HTTP/1.1
@@ -43,11 +43,50 @@ content-type: application/json
 }
 ### DELETE contact
 DELETE http://localhost:3000/contacts/66fdab17cbefc8670ef887ce
-###
+### GET
 https://cse341-projects-69u0.onrender.com/
-###
+### GET all contacts - Render
 https://cse341-projects-69u0.onrender.com/contacts
-###
+### GET
 https://cse341-projects-69u0.onrender.com/contacts/66f1b878fb95d9c3fb85233a
-###
+### GET
 https://cse341-projects-69u0.onrender.com/contacts/66f1b9d0fb95d9c3fb85233c
+### POST contact
+POST https://cse341-projects-69u0.onrender.com/contacts  HTTP/1.1
+content-type: application/json
+
+{
+    "firstName":"Michael",
+    "lastName":"Glenn",
+    "email":"mikey@gmail.com",
+    "favoriteColor":"Green",
+    "birthday":"2010/10/30"
+}
+### POST contact
+POST https://cse341-projects-69u0.onrender.com/contacts  HTTP/1.1
+content-type: application/json
+
+{
+    "firstName":"Alex",
+    "lastName":"Jennings",
+    "email":"jdawgs@gmail.com",
+    "favoriteColor":"Maroon",
+    "birthday":"1988/03/20"
+}
+### PUT contact
+PUT https://cse341-projects-69u0.onrender.com/contacts/66f1ba54fb95d9c3fb85233e  HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "Daniel",
+    "email": "dannyj@hotmail.com"
+}
+### PUT contact
+PUT https://cse341-projects-69u0.onrender.com/contacts/66f1b9d0fb95d9c3fb85233c  HTTP/1.1
+content-type: application/json
+
+{
+    "favoriteColor": "Orange"
+}
+### DELETE contact
+DELETE https://cse341-projects-69u0.onrender.com/contacts/66fe5b3f37947a7e8f03efa3
