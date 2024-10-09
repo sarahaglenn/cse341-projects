@@ -37,24 +37,7 @@
             "name": "body",
             "in": "body",
             "schema": {
-              "type": "object",
-              "properties": {
-                "firstName": {
-                  "example": "Sarah"
-                },
-                "lastName": {
-                  "example": "Glenn"
-                },
-                "email": {
-                  "example": "sarah.glenn@yahoo.com"
-                },
-                "favoriteColor": {
-                  "example": "Blue"
-                },
-                "birthday": {
-                  "example": "1990/07/04"
-                }
-              }
+              "$ref": "#/definitions/Contact"
             }
           }
         ],
@@ -105,24 +88,7 @@
             "name": "body",
             "in": "body",
             "schema": {
-              "type": "object",
-              "properties": {
-                "firstName": {
-                  "example": "Jane"
-                },
-                "lastName": {
-                  "example": "Smith"
-                },
-                "email": {
-                  "example": "rainyjaney@hotmail.com"
-                },
-                "favoriteColor": {
-                  "example": "Yellow"
-                },
-                "birthday": {
-                  "example": "2006/12/03"
-                }
-              }
+              "$ref": "#/definitions/Contact"
             }
           }
         ],
@@ -170,6 +136,18 @@
             "description": ""
           }
         }
+      }
+    }
+  },
+  "definitions": {
+    "Contact": {
+      "type": "object",
+      "properties": {
+        "firstName": { "type": "string", "example": "Sarah" },
+        "lastName": { "type": "string", "example": "Glenn" },
+        "email": { "type": "string", "example": "sarah.glenn@yahoo.com" },
+        "favoriteColor": { "type": "string", "example": "Blue" },
+        "birthday": { "type": "string", "format": "date", "example": "1990/07/04" }
       }
     }
   }
