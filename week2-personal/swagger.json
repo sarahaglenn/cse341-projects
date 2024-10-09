@@ -5,9 +5,9 @@
     "description": "Contacts API by Sarah Glenn for CSE 341",
     "version": "1.0.0"
   },
-  "host": "https://cse341-projects-69u0.onrender.com",
+  "host": "cse341-projects-69u0.onrender.com",
   "basePath": "/",
-  "schemes": ["http"],
+  "schemes": ["https"],
   "paths": {
     "/": {
       "get": {
