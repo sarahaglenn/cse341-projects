@@ -1,0 +1,128 @@
+[
+  {
+    "firstName": "Josh",
+    "lastName": "Hendrick",
+    "email": "hendrickhops42@hotmail.com",
+    "favoriteColor": "Orange",
+    "birthday": "1995/10/05"
+  },
+  {
+    "firstName": "Lisa",
+    "lastName": "Lindstrom",
+    "email": "lisa84@hotmail.com",
+    "favoriteColor": "green",
+    "birthday": "1988/12/16"
+  },
+  {
+    "firstName": "Samantha",
+    "lastName": "Ortega",
+    "email": "basketballgirl99@gmail.com",
+    "favoriteColor": "blue",
+    "birthday": "2002/06/17"
+  },
+  {
+    "firstName": "Daniel",
+    "lastName": "Jenkins",
+    "email": "dannyj@hotmail.com",
+    "favoriteColor": "blue",
+    "birthday": "1980/05/16"
+  },
+  {
+    "firstName": "Sarah",
+    "lastName": "Glenn",
+    "email": "sglenn@gmail.com",
+    "favoriteColor": "Teal",
+    "birthday": "2005/01/23"
+  },
+  {
+    "firstName": "Chris",
+    "lastName": "Jenkins",
+    "email": "chris.jenkins@gmail.com",
+    "favoriteColor": "blue",
+    "birthday": "1980/09/04"
+  },
+  {
+    "firstName": "Michael",
+    "lastName": "Glenn",
+    "email": "mikey@gmail.com",
+    "favoriteColor": "Green",
+    "birthday": "2010/10/30"
+  },
+  {
+    "firstName": "Alex",
+    "lastName": "Jennings",
+    "email": "jdawgs@gmail.com",
+    "favoriteColor": "Maroon",
+    "birthday": "1988/03/20"
+  },
+  {
+    "firstName": "Liam",
+    "lastName": "Roberts",
+    "email": "liam.roberts87@yahoo.com",
+    "favoriteColor": "Blue",
+    "birthday": "1987/06/14"
+  },
+  {
+    "firstName": "Sophia",
+    "lastName": "Turner",
+    "email": "sophia.t@gmail.com",
+    "favoriteColor": "Green",
+    "birthday": "1992/11/22"
+  },
+  {
+    "firstName": "Mason",
+    "lastName": "Harris",
+    "email": "mharris_91@outlook.com",
+    "favoriteColor": "Yellow",
+    "birthday": "1991/02/28"
+  },
+  {
+    "firstName": "Olivia",
+    "lastName": "Davis",
+    "email": "olivia.davis99@aol.com",
+    "favoriteColor": "Red",
+    "birthday": "1999/07/16"
+  },
+  {
+    "firstName": "Ethan",
+    "lastName": "Mitchell",
+    "email": "ethan.mitchell95@gmail.com",
+    "favoriteColor": "Purple",
+    "birthday": "1995/01/05"
+  },
+  {
+    "firstName": "Ava",
+    "lastName": "Parker",
+    "email": "ava.p90@yahoo.com",
+    "favoriteColor": "Orange",
+    "birthday": "1990/09/12"
+  },
+  {
+    "firstName": "Lucas",
+    "lastName": "Wilson",
+    "email": "lucas_wilson@outlook.com",
+    "favoriteColor": "Teal",
+    "birthday": "1988/03/18"
+  },
+  {
+    "firstName": "Emma",
+    "lastName": "Clark",
+    "email": "emma.clark@icloud.com",
+    "favoriteColor": "Pink",
+    "birthday": "1993/10/25"
+  },
+  {
+    "firstName": "Noah",
+    "lastName": "King",
+    "email": "noah.king@yahoo.com",
+    "favoriteColor": "Brown",
+    "birthday": "1985/12/03"
+  },
+  {
+    "firstName": "Isabella",
+    "lastName": "Lewis",
+    "email": "isabella.l@gmail.com",
+    "favoriteColor": "Cyan",
+    "birthday": "1998/05/30"
+  }
+]

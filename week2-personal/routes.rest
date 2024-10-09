@@ -90,3 +90,5 @@ content-type: application/json
 }
 ### DELETE contact
 DELETE https://cse341-projects-69u0.onrender.com/contacts/66fe5b3f37947a7e8f03efa3
+### API DOCS
+https://cse341-projects-69u0.onrender.com/api-docs
