@@ -2,11 +2,15 @@ const mongodb = require('../database/connect');
 const { ObjectId } = require('mongodb');
 
 const getData = async (req, res) => {
-  const result = await mongodb.getDatabase().db('CSE330').collection('Contacts').find();
-  result.toArray().then((lists) => {
-    res.setHeader('Content-Type', 'application/json');
-    res.status(200).json(lists);
-  });
+  try {
+    const result = await mongodb.getDatabase().db('CSE330').collection('Contacts').find();
+    result.toArray().then((lists) => {
+      res.setHeader('Content-Type', 'application/json');
+      res.status(200).json(lists);
+    });
+  } catch (error) {
+    res.status(500).json(error);
+  }
 };
 
 const findContact = async (req, res) => {
